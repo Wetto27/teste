@@ -1,4 +1,4 @@
-# Projeto de Exibição de Cartas de Pokémon
+# CardView
 
 ## Descrição
 
@@ -11,14 +11,6 @@ Este projeto é responsável por exibir as cartas de cada jogador em um jogo de 
 - **Consulta de Pokémons:** Utiliza a PokéAPI para obter informações detalhadas sobre os Pokémons nas cartas.
 - **Exibição de Cartas:** Exibe as cartas de cada jogador com as informações obtidas.
 
-## Pré-requisitos
-
-- Node.js (v14 ou superior)
-- npm (v6 ou superior)
-- Conta na PokéAPI (se necessário)
-
-## Instalação
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/seu-projeto.git
+## Tecnologias Utilizadas
+- **Front-end:** React
+- **APIs:** PokéAPI

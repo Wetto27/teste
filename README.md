@@ -17,7 +17,7 @@ Este projeto é responsável por exibir as cartas de cada jogador em um jogo de 
 
 ## UML
 ### Fluxograma
-<img src="https://github.com/user-attachments/assets/86909150-296d-44c9-b71c-44a6c431ff8a" width="750">
+<img src="https://github.com/user-attachments/assets/86909150-296d-44c9-b71c-44a6c431ff8a" width="600">
 
 #### Introdução  
 O fluxograma descreve o funcionamento da tela do jogo, desde o início até a interação do usuário e a atualização da interface.
@@ -42,6 +42,8 @@ O fluxograma garante uma **interação contínua** e uma **experiência de jogo 
 
 ### Diagrama de Caso de Uso  
 ![diagrama-caso-de-uso](https://github.com/user-attachments/assets/c04a0d45-7a28-476d-9818-e87abef07796)  
+![caso](https://github.com/user-attachments/assets/b0c8f702-9086-4d61-9258-9b199dcf9e90)
+
 
 #### Descrição  
 O diagrama de caso de uso representa o fluxo de visualização de cartas no jogo, descrevendo como o jogador interage com o sistema para acessar suas cartas.
@@ -62,5 +64,5 @@ Com todas as informações recuperadas, as **cartas são exibidas** ao jogador n
 O diagrama ilustra a interação entre o jogador e os serviços do sistema, garantindo que as cartas sejam carregadas corretamente e exibidas de forma dinâmica e responsiva.  
 
 ### Diagrama de Classe
-<img src="https://github.com/user-attachments/assets/4af81097-b9b6-4ccd-a2d4-fd939b55fa1d" width="750">
+<img src="https://github.com/user-attachments/assets/4af81097-b9b6-4ccd-a2d4-fd939b55fa1d" width="600">
 

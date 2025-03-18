@@ -61,6 +61,26 @@ Com todas as informações recuperadas, as **cartas são exibidas** ao jogador n
 #### Conclusão  
 O diagrama ilustra a interação entre o jogador e os serviços do sistema, garantindo que as cartas sejam carregadas corretamente e exibidas de forma dinâmica e responsiva.  
 
-### Diagrama de Classe
-<img src="https://github.com/user-attachments/assets/2992a46f-604c-4d2d-a96a-caec1652bda8" width="600">
+### Diagrama de Classe  
+<img src="https://github.com/user-attachments/assets/2992a46f-604c-4d2d-a96a-caec1652bda8" width="600">  
+
+#### Explicação  
+O diagrama de classes representa a estrutura da aplicação que exibe as cartas dos jogadores, detalhando as classes principais e seus relacionamentos.  
+
+#### Estrutura do Sistema  
+
+- **Aplicação de Visualização de Cartas**: Classe principal que coordena a recuperação e exibição dos dados dos jogadores e suas cartas.  
+- **Jogador**: Representa um jogador no sistema, contendo nome e uma lista de Pokémon recuperada da **PokéAPI**.  
+- **Carta**: Representa uma carta pertencente a um jogador, sendo fornecida pelo **Serviço de Distribuição de Cartas**.  
+
+#### Relacionamento com os Serviços  
+
+- **Serviço de Jogadores**: Fornece informações sobre o jogador.  
+- **Serviço de Distribuição de Cartas**: Responsável pelas cartas associadas ao jogador.  
+- **PokéAPI**: Recupera detalhes dos Pokémon em formato JSON.  
+
+#### Conclusão  
+O diagrama de classes organiza e define claramente as responsabilidades de cada classe no sistema, facilitando a compreensão e a integração entre os diferentes componentes. Ele permite uma manutenção mais eficiente e uma expansão do sistema de forma modular e escalável.  
+ 
+
 

@@ -7,7 +7,7 @@ Este projeto é responsável por exibir as cartas de cada jogador em um jogo de 
 ## Funcionalidades
 
 - **Consulta de Jogadores:** Recupera informações sobre os jogadores.
-- **Distribuição de Cartas:** Consulta o serviço de distribuição de cartas para obter as cartas de cada jogador.
+- **Consulta de Cartas:** Consulta o serviço de distribuição de cartas para obter as cartas de cada jogador.
 - **Consulta de Pokémons:** Utiliza a PokéAPI para obter informações detalhadas sobre os Pokémons nas cartas.
 - **Exibição de Cartas:** Exibe as cartas de cada jogador com as informações obtidas.
 

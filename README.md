@@ -65,5 +65,5 @@ O diagrama ilustra a interação entre o jogador e os serviços do sistema, gara
 ![diagrama-classe](https://github.com/user-attachments/assets/f5af90fe-ca2b-475d-b3a0-191f1a080918)
 
 ![classe](https://github.com/user-attachments/assets/4af81097-b9b6-4ccd-a2d4-fd939b55fa1d)
-
+<img src="https://github.com/user-attachments/assets/4af81097-b9b6-4ccd-a2d4-fd939b55fa1d" width="500">
 

@@ -17,8 +17,7 @@ Este projeto é responsável por exibir as cartas de cada jogador em um jogo de 
 
 ## UML
 ### Fluxograma
-![Fluxograma](UML/WhatsApp%20Image%202025-03-17%20at%2015.57.25.jpeg)
-![fluxograma](https://github.com/user-attachments/assets/86909150-296d-44c9-b71c-44a6c431ff8a)
+<img src="https://github.com/user-attachments/assets/86909150-296d-44c9-b71c-44a6c431ff8a" width="750">
 
 #### Introdução  
 O fluxograma descreve o funcionamento da tela do jogo, desde o início até a interação do usuário e a atualização da interface.
@@ -63,8 +62,5 @@ Com todas as informações recuperadas, as **cartas são exibidas** ao jogador n
 O diagrama ilustra a interação entre o jogador e os serviços do sistema, garantindo que as cartas sejam carregadas corretamente e exibidas de forma dinâmica e responsiva.  
 
 ### Diagrama de Classe
-![diagrama-classe](https://github.com/user-attachments/assets/f5af90fe-ca2b-475d-b3a0-191f1a080918)
-
-![classe](https://github.com/user-attachments/assets/4af81097-b9b6-4ccd-a2d4-fd939b55fa1d)
-<img src="https://github.com/user-attachments/assets/4af81097-b9b6-4ccd-a2d4-fd939b55fa1d" width="500">
+<img src="https://github.com/user-attachments/assets/4af81097-b9b6-4ccd-a2d4-fd939b55fa1d" width="750">
 

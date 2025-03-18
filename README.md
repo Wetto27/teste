@@ -41,9 +41,7 @@ O fluxograma garante uma **interação contínua** e uma **experiência de jogo 
 
 
 ### Diagrama de Caso de Uso  
-![diagrama-caso-de-uso](https://github.com/user-attachments/assets/c04a0d45-7a28-476d-9818-e87abef07796)  
-![caso](https://github.com/user-attachments/assets/b0c8f702-9086-4d61-9258-9b199dcf9e90)
-
+<img src="https://github.com/user-attachments/assets/b0c8f702-9086-4d61-9258-9b199dcf9e90" width="600">
 
 #### Descrição  
 O diagrama de caso de uso representa o fluxo de visualização de cartas no jogo, descrevendo como o jogador interage com o sistema para acessar suas cartas.

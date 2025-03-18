@@ -52,14 +52,14 @@ O diagrama de caso de uso representa o fluxo de visualização de cartas no jogo
 2. Após o cadastro, ele recebe **5 Pokémon aleatórios** da funcionalidade **"Distribuição de Cartas"**.  
 3. O jogador solicita a funcionalidade **"Exibir Cartas"**.  
 4. O sistema consulta os serviços necessários:  
-   - **Sistema de Gerenciamento de Jogadores** para obter informações sobre o jogador.  
+   - **Serviço de Jogadores** para obter informações sobre o jogador.  
    - **Serviço de Distribuição de Cartas** para recuperar os Pokémon atuais no deck do jogador.  
    - **PokéAPI** para obter os detalhes dos Pokémon no deck do jogador.  
 
-Com todas as informações recuperadas, as **cartas são exibidas** ao jogador na interface do sistema.  
+Com todas as informações recuperadas, as **cartas são exibidas** ao jogador na interface do .  
 
 #### Conclusão  
-O diagrama ilustra a interação entre o jogador e os serviços do sistema, garantindo que as cartas sejam carregadas corretamente e exibidas de forma dinâmica e responsiva.  
+O diagrama ilustra a interação entre o jogador e os serviços do , garantindo que as cartas sejam carregadas corretamente e exibidas de forma dinâmica e responsiva.  
 
 ### Diagrama de Classe  
 <img src="https://github.com/user-attachments/assets/2992a46f-604c-4d2d-a96a-caec1652bda8" width="600">  

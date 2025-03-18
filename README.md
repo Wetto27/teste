@@ -18,6 +18,7 @@ Este projeto é responsável por exibir as cartas de cada jogador em um jogo de 
 ## UML
 ### Fluxograma
 ![Fluxograma](UML/WhatsApp%20Image%202025-03-17%20at%2015.57.25.jpeg)
+![fluxograma](https://github.com/user-attachments/assets/86909150-296d-44c9-b71c-44a6c431ff8a)
 
 #### Introdução  
 O fluxograma descreve o funcionamento da tela do jogo, desde o início até a interação do usuário e a atualização da interface.

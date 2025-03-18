@@ -15,5 +15,5 @@ Este projeto é responsável por exibir as cartas de cada jogador em um jogo de 
 - **Front-end:** React
 - **APIs:** PokéAPI
 
-![Descrição da imagem](UML/Diagrama-caso-de-uso2.png)
+![Descrição da imagem](UML/WhatsApp%20Image%202025-03-17%20at%2015.57.25.jpeg)
 

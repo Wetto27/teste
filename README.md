@@ -61,7 +61,8 @@ Com todas as informações recuperadas, as **cartas são exibidas** ao jogador n
 #### Conclusão  
 O diagrama ilustra a interação entre o jogador e os serviços do sistema, garantindo que as cartas sejam carregadas corretamente e exibidas de forma dinâmica e responsiva.  
 
-
+### Diagrama de Classe
+![diagrama-classe](https://github.com/user-attachments/assets/f5af90fe-ca2b-475d-b3a0-191f1a080918)
 
 
 

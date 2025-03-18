@@ -19,7 +19,7 @@ Este projeto é responsável por exibir as cartas de cada jogador em um jogo de 
 ### Fluxograma
 <img src="https://github.com/user-attachments/assets/86909150-296d-44c9-b71c-44a6c431ff8a" width="600">
 
-#### Introdução  
+#### Descrição  
 O fluxograma descreve o funcionamento da tela do jogo, desde o início até a interação do usuário e a atualização da interface.
 
 #### Explicação do Fluxograma  
@@ -63,7 +63,7 @@ O diagrama ilustra a interação entre o jogador e os serviços do , garantindo 
 ### Diagrama de Classe  
 <img src="https://github.com/user-attachments/assets/2992a46f-604c-4d2d-a96a-caec1652bda8" width="600">  
 
-#### Explicação  
+#### Descrição  
 O diagrama de classes representa a estrutura da aplicação que exibe as cartas dos jogadores, detalhando as classes principais e seus relacionamentos.  
 
 #### Estrutura do Sistema  

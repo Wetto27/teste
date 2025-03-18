@@ -39,7 +39,8 @@ O fluxograma descreve o funcionamento da tela do jogo, desde o início até a in
 #### Conclusão  
 O fluxograma garante uma **interação contínua** e uma **experiência de jogo fluida**, assegurando o carregamento correto dos recursos e o tratamento adequado de erros. Dessa forma, o sistema mantém uma interface responsiva e funcional.
 
-----
+---
+***
 
 ### Diagrama de Caso de Uso  
 ![diagrama-caso-de-uso](https://github.com/user-attachments/assets/c04a0d45-7a28-476d-9818-e87abef07796)  

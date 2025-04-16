@@ -18,6 +18,7 @@ Este projeto é responsável por exibir as cartas de cada jogador em um jogo de 
 ## UML
 ### Fluxograma
 <img src="https://github.com/user-attachments/assets/86909150-296d-44c9-b71c-44a6c431ff8a" width="600">
+https://www.figma.com/proto/KBulNzYqjDY3G5JKUM9EzH/Untitled?node-id=0-1&t=GX8Ta6zdOw1MqnI2-1
 
 #### Descrição  
 O fluxograma descreve o funcionamento da tela do jogo, desde o início até a interação do usuário e a atualização da interface.

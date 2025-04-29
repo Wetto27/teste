@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useEffect } from 'react';
 import { useAuth } from '../../auth/AuthContext';
 import { useNavigate } from 'react-router-dom';
 import './styles.css';
@@ -9,6 +10,9 @@ const Register = () => {
   const [name, setName] = useState('');
   const { login } = useAuth();
   const navigate = useNavigate();
+    useEffect(() => {
+      document.title = "Cadastro"; // Altera o título
+    }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -24,32 +28,32 @@ const Register = () => {
 
   return (
     <div className="register-container">
-      <h2>Cadastro Treinador Pokémon</h2>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-          placeholder="Nome"
-          required
-        />
-        <input
-          type="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          placeholder="Email"
-          required
-        />
-        <input
-          type="password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          placeholder="Senha"
-          required
-        />
-        <button type="submit">Cadastrar</button>
-      </form>
-    </div>
+  <form onSubmit={handleSubmit}>
+    <h2>Cadastro</h2>  {/* Agora está dentro da box */}
+    <input
+      type="text"
+      value={name}
+      onChange={(e) => setName(e.target.value)}
+      placeholder="Digite seu nome"
+      required
+    />
+    <input
+      type="email"
+      value={email}
+      onChange={(e) => setEmail(e.target.value)}
+      placeholder="Digite seu email"
+      required
+    />
+    <input
+      type="password"
+      value={password}
+      onChange={(e) => setPassword(e.target.value)}
+      placeholder="Digite sua senha"
+      required
+    />
+    <button type="submit">Cadastrar</button>
+  </form>
+</div>
   );
 };
 

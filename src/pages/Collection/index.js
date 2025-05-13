@@ -15,29 +15,57 @@ const Collection = () => {
   const [battleOpponent, setBattleOpponent] = useState('');
   const [selectedCardDetails, setSelectedCardDetails] = useState(null);
 
+  // Função para gerar número aleatório entre 1 e 151
+  const getRandomPokemonId = () => Math.floor(Math.random() * 151) + 1;
+
+  // Função para simular troca (substitui 1 dos 5 por outro aleatório)
+  const simulateTrade = async () => {
+    try {
+      const newPokemonId = getRandomPokemonId();
+      const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${newPokemonId}`);
+      const data = await res.json();
+
+      const newCard = {
+        id: Date.now(), // ID único
+        pokemonId: newPokemonId,
+        ownerId: user?.id || 'mock-user-id',
+        name: data.name,
+        sprite: data.sprites.front_default || 'https://via.placeholder.com/96'
+      };
+
+      // Substitui uma carta aleatória entre as 5
+      const indexToReplace = Math.floor(Math.random() * 5);
+      const updatedCards = [...cards];
+      updatedCards[indexToReplace] = newCard;
+
+      setCards(updatedCards);
+    } catch (error) {
+      console.error('Erro ao simular troca:', error);
+      alert('Erro ao simular troca');
+    }
+  };
+
   useEffect(() => {
     document.title = "Coleção";
+
     const fetchCards = async () => {
       try {
-        const mockCards = [
-          { id: 1, pokemonId: 151, ownerId: user?.id || 'mock-user-id' },
-          { id: 2, pokemonId: 7, ownerId: user?.id || 'mock-user-id' },
-          { id: 3, pokemonId: 4, ownerId: user?.id || 'mock-user-id' },
-          { id: 4, pokemonId: 1, ownerId: user?.id || 'mock-user-id' }, // Exemplo de outro Pokémon
-          { id: 5, pokemonId: 150, ownerId: user?.id || 'mock-user-id' } // Exemplo de outro Pokémon
-        ];
+        // Gera 5 cartas com Pokémon aleatórios
+        const mockCards = Array.from({ length: 5 }, (_, index) => ({
+          id: index + 1,
+          pokemonId: getRandomPokemonId(),
+          ownerId: user?.id || 'mock-user-id'
+        }));
 
         const detailedCards = await Promise.all(
           mockCards.map(async (card) => {
             const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${card.pokemonId}`);
             const data = await res.json();
 
-            console.log(data.sprites.front_default); // Verifica o link da imagem no console
-
             return {
               ...card,
               name: data.name,
-              sprite: data.sprites.front_default || 'https://via.placeholder.com/96' // Fallback se não tiver imagem
+              sprite: data.sprites.front_default || 'https://via.placeholder.com/96'
             };
           })
         );
@@ -80,6 +108,9 @@ const Collection = () => {
           onChange={(e) => setBattleOpponent(e.target.value)}
         />
         <button onClick={handleBattle}>Desafiar para Batalha</button>
+
+        {/* Botão Simular Troca */}
+        <button onClick={simulateTrade} className="simulate-button">Simular Troca</button>
       </div>
 
       <div className="cards-grid">

@@ -15,46 +15,46 @@
 }
 
 .box {
-  background-color: rgba(255, 255, 255, 0.9); /* Branco com leve transparência */
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 2rem;
   border-radius: 1rem;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25); /* Sombra mais pronunciada */
-  width: 90%; /* Largura relativa para mobile */
-  max-width: 400px;
-  margin: 1rem; /* Margem de segurança */
-  backdrop-filter: blur(2px); /* Efeito de vidro sutil */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  width: 95%;
+  max-width: 600px; /* 👈 aumentei aqui */
+  margin: 1rem;
+  backdrop-filter: blur(2px);
 }
 
 .title {
-  font-size: 1.8rem; /* Título um pouco maior */
+  font-size: 1.8rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
   text-align: center;
-  color: #333; /* Cor mais escura para melhor contraste */
+  color: #333;
 }
 
 .form {
   display: flex;
   flex-direction: column;
   width: 100%;
-  gap: 1.35rem; /* Espaçamento maior entre elementos */
+  gap: 1.35rem;
 }
 
 .input-group {
   display: flex;
   flex-direction: column;
-  width: 100%; /* Garante que ocupa toda a largura */
+  width: 100%;
 }
 
 .input-group label {
   margin-bottom: 0.5rem;
   font-size: 0.9rem;
-  font-weight: 600; /* Negrito mais forte */
+  font-weight: 600;
   color: #444;
 }
 
 .input-group input {
-  padding: 0.8rem 1rem; /* Mais espaço horizontal */
+  padding: 0.8rem 1rem;
   border: 1px solid #ddd;
   border-radius: 0.5rem;
   outline: none;
@@ -70,16 +70,16 @@
 .button {
   background-color: #f52121;
   color: white;
-  padding: 0.85rem; /* Mais altura */
+  padding: 0.85rem;
   border-radius: 0.5rem;
   border: none;
   cursor: pointer;
   transition: all 0.3s ease;
   font-weight: 600;
   font-size: 1rem;
-  width: 50%; /* 👈 Opcional: controla a largura */
-  margin: 0 auto; /* Centraliza o botão */
-  display: block; /* Necessário para o margin auto funcionar */
+  width: 50%;
+  margin: 0 auto;
+  display: block;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   margin-top: 0.5rem;
@@ -88,7 +88,7 @@
 
 .button:hover {
   background-color: #f52121;
-  transform: translateY(-2px); /* Efeito de levitar */
+  transform: translateY(-2px);
 }
 
 .button:active {
@@ -113,14 +113,13 @@
   text-decoration: underline;
 }
 
-/* Responsividade */
 @media (max-width: 480px) {
   .box {
-      padding: 1.5rem;
-      width: 85%;
+    padding: 1.5rem;
+    width: 85%;
   }
-  
+
   .title {
-      font-size: 1.5rem;
+    font-size: 1.5rem;
   }
 }
